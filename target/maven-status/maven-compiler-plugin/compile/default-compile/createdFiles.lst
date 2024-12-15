@@ -1,0 +1,5 @@
+com/minimizing/system/InventarioDAO.class
+com/minimizing/system/util/HibernateUtil.class
+com/minimizing/system/controllers/DashboardController.class
+com/minimizing/system/Main.class
+com/minimizing/system/Producto.class
