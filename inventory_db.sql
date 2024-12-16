@@ -9,6 +9,3 @@ CREATE TABLE IF NOT EXISTS Producto (
     cantidad INT NOT NULL CHECK (cantidad > 0),
     fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
--- Crear índice para optimizar las búsquedas por nombre
-CREATE INDEX idx_nombre_producto ON Producto (nombre);
